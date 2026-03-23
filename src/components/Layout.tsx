@@ -1,16 +1,10 @@
 import React, { useState } from 'react';
 import { 
-  Menu, 
   Bell, 
   Search, 
-  User, 
   LogOut, 
   ChevronLeft, 
-  ChevronRight,
-  LayoutDashboard,
-  Settings as SettingsIcon,
-  HelpCircle,
-  Sparkles
+  ChevronRight
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { clsx, type ClassValue } from 'clsx';

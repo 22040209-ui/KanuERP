@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Lock, User, ShieldCheck, AlertCircle, ArrowRight } from 'lucide-react';
 import { MOCK_EMPLOYEES } from '../constants';
-import { Employee } from '../types';
+import type { Employee } from '../types';
 
 interface LoginViewProps {
   onLogin: (user: Employee) => void;
