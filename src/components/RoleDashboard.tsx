@@ -27,7 +27,7 @@ import {
   Database,
   Lock,
   UserPlus,
-  Star
+  Star,
   Instagram,
   Facebook,
   Video
